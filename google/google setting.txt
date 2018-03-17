@@ -1,0 +1,15 @@
+1. Google Place API로 정보 가져오기
+https://console.developers.google.com/
+https://developers.google.com/places/web-service/get-api-key?hl=ko
+
+2. Google Place API 설정
+You're all set!
+You're ready to start developing with Google Places API Web Service
+YOUR API KEY
+AIzaSyCAt0Mbot28JX77iOyw_hbRkaeplL0b3ZQ
+
+3. Google Place API 사용
+https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=51.507351,-0.127758&radius=1000&types=restaurant&keyword=Restaurants&key=AIzaSyCAt0Mbot28JX77iOyw_hbRkaeplL0b3ZQ
+https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=51.507351,-0.127758&radius=1000&types=restaurant&key=AIzaSyCAt0Mbot28JX77iOyw_hbRkaeplL0b3ZQ
+
+4. 해당 API를 이용하여 파싱하여 DB에 삽입

@@ -1,0 +1,24 @@
+https://api.instagram.com/oauth/authorize/?client_id=758979a582664af4ac889966402de3cb&redirect_uri=http://www.mangoplate.com&response_type=token
+
+// 인증을 해야함
+{"error_type": "OAuthForbiddenException", "code": 403, "error_message": "Implicit authentication is disabled"}
+
+// API 사용방법 
+// 내 정보 
+https://api.instagram.com/v1/users/self/?access_token=253561795.758979a.b253259bec024176942b35c93e66c9c3
+https://api.instagram.com/v1/users/self/media/recent/?access_token=253561795.758979a.b253259bec024176942b35c93e66c9c3
+// 유저검색 - jack ( 권한이 없음 )
+https://api.instagram.com/v1/users/search?q=jack&access_token=253561795.758979a.b253259bec024176942b35c93e66c9c3
+// 강남역 ( 권한이 없음 ) 
+https://api.instagram.com/v1/media/search?lat=37.4977339&lng=127.02821990000007&access_token=253561795.758979a.b253259bec024176942b35c93e66c9c3
+
+
+// Error
+instagram.bind.InstagramAPIError: (400) OAuthPermissionsException-This request requires scope=follower_list, but this access token is not authorized with this scope. The user must re-authorize your application with scope=follower_list to be granted this permissions.
+
+// SDK가 있는데 안된다~~ 안쓰는게...
+
+// 서드파티 API 인증 문제 
+http://blog.naver.com/PostView.nhn?blogId=taglive&logNo=220705699485&categoryNo=0&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView
+
+http://clip.i4unetworks.co.kr/1641

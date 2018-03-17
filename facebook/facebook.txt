@@ -1,0 +1,19 @@
+Facebook Token access
+http://graph.facebook.com/oauth/access_token?client_id=500984196594569&client_secret=e041e513960dbe03ae32784fdf01ae28&grant_type=client_credentials
+
+// 결과
+{"access_token":"500984196594569|Pa44ZmiZXoBc7kLH-DB0jrL_nF0","token_type":"bearer"}
+
+https://developers.facebook.com/tools/access_token
+
+Facebook Python API
+https://github.com/mobolic/facebook-sdk
+
+// SDK 설치 
+pip install git+https://github.com/pythonforfacebook/facebook-sdk.git
+
+// 위도 경도 알아내는 페이지
+http://www.iegate.net/maps/rgeogoogle.php
+
+// graph api
+https://developers.facebook.com/docs/graph-api/using-graph-api#search
