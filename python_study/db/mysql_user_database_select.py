@@ -13,7 +13,6 @@ curs.execute("select * from day24")
 
 # 데이터 Fetch
 rows = curs.fetchall()
-
 for row in rows:
     print(row)
 
